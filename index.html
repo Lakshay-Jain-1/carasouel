@@ -7,6 +7,12 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    /* Css for images used in Carasoule  */
     .carasoule-img {
       height: 150px;
       width: 120px;
@@ -20,21 +26,20 @@
       row-gap: 30px;
     }
 
+    /* Container which has images and responsible for animation  */
     #logo-slider {
       white-space: nowrap;
       animation: slider 15s infinite linear;
-    
-
     }
 
+    /* 2nd Container which has  same images and responsible for animation  */
     #logo-slider-2 {
       white-space: nowrap;
       animation: slider 15s infinite linear;
-    
+
     }
 
-   
-
+    /* Animation  */
     @keyframes slider {
       from {
         transform: translateX(-100%);
@@ -45,7 +50,6 @@
 
       }
     }
-    
   </style>
 </head>
 

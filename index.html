@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .carasoule-img {
+      height: 150px;
+      width: 120px;
+      margin: 60px;
+    }
+
+    #logo-parent {
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      row-gap: 30px;
+    }
+
+    #logo-slider {
+      white-space: nowrap;
+      animation: slider 15s infinite linear;
+    
+
+    }
+
+    #logo-slider-2 {
+      white-space: nowrap;
+      animation: slider 15s infinite linear;
+    
+    }
+
+   
+
+    @keyframes slider {
+      from {
+        transform: translateX(-100%);
+      }
+
+      to {
+        transform: translateX(100%);
+
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div id="logo-parent">
+    <div id="logo-slider">
+      <img class="carasoule-img" src="./Adidas New 2022.png">
+      <img class="carasoule-img" src="./Facebook New 2023 Icon.png">
+      <img class="carasoule-img" src="./GMail New Icon.png">
+      <img class="carasoule-img" src="./svg.png">
+      <img class="carasoule-img" src="./WhatsApp.jpg">
+    </div>
+
+    <div id="logo-slider-2">
+      <img class="carasoule-img" src="./Adidas New 2022.png">
+      <img class="carasoule-img" src="./Facebook New 2023 Icon.png">
+      <img class="carasoule-img" src="./GMail New Icon.png">
+      <img class="carasoule-img" src="./svg.png">
+      <img class="carasoule-img" src="./WhatsApp.jpg">
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
